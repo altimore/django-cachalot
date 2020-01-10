@@ -1,7 +1,7 @@
 # coding: utf-8
 
 from __future__ import unicode_literals
-from collections import Iterable
+from collections.abc import Iterable
 from time import time
 
 from django.db.backends.utils import CursorWrapper
